@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color:gray;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.centro{
+    width: 18%;
+    margin-left: 15px;
+    margin-right: auto;
+    display: block;
+    
+    
+   
+}
+.separador1{
+    height: 10px;
+    clear: both;
+}
+.separador2{
+    width: 10px;
+    float: left;
+    width: 10px;
+
+    
+}
+
+
+body{
+    background-image: url(img/foto10.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main{
+    height: 1200px;
+}
+.main img{
+    width: 18%;
+    float: left;
+    border-style: solid;
+
+}
+
+img{
+    transition: all 0.5s linear;
+    border-color: white;
+}
+
+img:hover{
+    transform: scale(0.9);
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
+    border: solid black;
+    margin: auto;
+     text-align: center;
+    
+}
+    
